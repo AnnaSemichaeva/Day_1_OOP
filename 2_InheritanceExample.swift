@@ -35,6 +35,7 @@ public class Dish{
 
 public class FriedEggs : Dish{
     public override func eatTheDish() {
+        // super.eatTheDish() -> можно вызвать базовую реализацию в дополнение к твоей
         print("Очень вкусно, вы съели жаренные яйца")
         increaseStamina()
     }
@@ -51,6 +52,7 @@ public class PoisonousMushrooms : Dish{
     public override func eatTheDish() {
         print("Вы съели какие-то грибы, на вкус очень даже ничего")
         poisonTheHuman()
+        killTheHuman()
     }
     
     private func killTheHuman(){
