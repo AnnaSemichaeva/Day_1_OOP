@@ -16,6 +16,7 @@
 		52C74497284D2FE7000981D4 /* 1_InheritanceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C74496284D2FE7000981D4 /* 1_InheritanceExample.swift */; };
 		52C74499284D3606000981D4 /* CodeExecutionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C74498284D3606000981D4 /* CodeExecutionClass.swift */; };
 		52C7449B284D384B000981D4 /* 2_InheritanceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7449A284D384B000981D4 /* 2_InheritanceExample.swift */; };
+		52C7449D284D457A000981D4 /* 3_InheritanceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C7449C284D457A000981D4 /* 3_InheritanceExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		52C74496284D2FE7000981D4 /* 1_InheritanceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1_InheritanceExample.swift; sourceTree = "<group>"; };
 		52C74498284D3606000981D4 /* CodeExecutionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeExecutionClass.swift; sourceTree = "<group>"; };
 		52C7449A284D384B000981D4 /* 2_InheritanceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_InheritanceExample.swift; sourceTree = "<group>"; };
+		52C7449C284D457A000981D4 /* 3_InheritanceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_InheritanceExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 				52C74498284D3606000981D4 /* CodeExecutionClass.swift */,
 				52C74496284D2FE7000981D4 /* 1_InheritanceExample.swift */,
 				52C7449A284D384B000981D4 /* 2_InheritanceExample.swift */,
+				52C7449C284D457A000981D4 /* 3_InheritanceExample.swift */,
 				52C74481284D2E01000981D4 /* Day_1_OOP */,
 				52C74480284D2E01000981D4 /* Products */,
 			);
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C7449D284D457A000981D4 /* 3_InheritanceExample.swift in Sources */,
 				52C7449B284D384B000981D4 /* 2_InheritanceExample.swift in Sources */,
 				52C74487284D2E01000981D4 /* ViewController.swift in Sources */,
 				52C74483284D2E01000981D4 /* AppDelegate.swift in Sources */,
