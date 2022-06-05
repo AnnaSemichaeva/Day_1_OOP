@@ -18,7 +18,9 @@ public class CodeExecutionClass{
         
         // Example 1
         print("EXAMPLE 1________________")
-        
+        var emptyIntArray: [Int] = [Int]()
+        emptyIntArray.append(3)
+        var someIntegers = [12, 23, 5, 1, -23]
         var investmentInstruments = [InvestmentInstrument(), Stocks(), Options(), Bonds()]
         
         for instrument in investmentInstruments{
