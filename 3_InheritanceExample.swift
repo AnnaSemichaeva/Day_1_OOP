@@ -13,4 +13,4 @@ public final class YouCantInheritMe{
 
 //public class ITryToInheritClassAbove : YouCantInheritMe{
 //
-//}//hh
+//}
