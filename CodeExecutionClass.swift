@@ -129,7 +129,17 @@ public class CodeExecutionClass{
         
         print("а теперь Ане исполнилось \(Box.AnnaSemichaevaAge) года")
         
-        let array_1 = [Square(side_a: 5), Triangle(side_a: 3), Rectangle(side_a: 5, side_b: 3)]
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        let array_1 = [Square(side_a: 5), Triangle(side_a: 3), Rectangle(side_a: 5, side_b: 3), Circle(r: 5)]
         
         for shape in array_1 {
             print(shape.calculatePerimeter())
@@ -237,6 +247,9 @@ public class Square: Shape {
 
 public class Triangle : Shape {
     
+    
+    
+    
     var side_a: Int
     
     public init(side_a: Int) {
@@ -254,13 +267,38 @@ public class Rectangle : Shape {
     var side_a: Int
     var side_b: Int
     
+    
+    
+    
+    
     public init(side_a: Int, side_b: Int) {
         self.side_a = side_a
         self.side_b = side_b
     }
     
+    
+    
     public override func calculatePerimeter() -> Int {
         return side_a * 2 + side_b * 2
+    }
+    
+    
+    
+    
+    
+}
+
+
+public class Circle: Shape {
+    
+    var r: Int
+    
+    public init(r: Int) {
+        self.r = r
+    }
+    
+    public override func calculatePerimeter() -> Int {
+        return Int(Float(2) * Float(r) * .pi)
     }
     
 }
